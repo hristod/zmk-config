@@ -43,10 +43,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC    &kp Q               &kp W                   &kp E               &kp R                 &kp T             &kp Y         &kp U              &kp I            &kp O        &kp P                    &kp BSPC
-&kp TAB    &hr_tap LEFT_ALT A  &hr_tap LEFT_CONTROL S  &hr_tap LEFT_GUI D  &hr_tap LEFT_SHIFT F  &kp G             &kp H         &mt RIGHT_SHIFT J  &mt RIGHT_GUI K  &mt RCTRL L  &mt RIGHT_ALT SEMICOLON  &kp BACKSLASH
-&kp GRAVE  &kp Z               &kp X                   &kp C               &kp V                 &kp B             &kp N         &kp M              &kp COMMA        &kp DOT      &kp FSLH                 &kp RSHFT
-                                                       &none               &kp ESC               &mo_kp 1 SPACE    &mo_kp 2 RET  &kp BACKSPACE      &none
+&kp ESC    &kp Q               &kp W                   &kp E               &kp R                 &kp T             &kp Y         &kp U                  &kp I                &kp O            &kp P                        &kp BSPC
+&kp TAB    &hr_tap LEFT_ALT A  &hr_tap LEFT_CONTROL S  &hr_tap LEFT_GUI D  &hr_tap LEFT_SHIFT F  &kp G             &kp H         &hr_tap RIGHT_SHIFT J  &hr_tap RIGHT_GUI K  &hr_tap RCTRL L  &hr_tap RIGHT_ALT SEMICOLON  &kp BACKSLASH
+&kp GRAVE  &kp Z               &kp X                   &kp C               &kp V                 &kp B             &kp N         &kp M                  &kp COMMA            &kp DOT          &kp FSLH                     &kp RSHFT
+                                                       &none               &kp ESC               &mo_kp 1 SPACE    &mo_kp 2 RET  &kp BACKSPACE          &none
             >;
         };
 
