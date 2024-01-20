@@ -19,15 +19,28 @@
             bindings = <&mo>, <&kp>;
         };
 
-        hr_tap: hr_tap {
+        hrt_lh: hrt_lh {
             compatible = "zmk,behavior-hold-tap";
-            label = "HR_TAP";
+            label = "HOMEROW_LEFT";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <150>;
+            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <100>;
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <0>;
+            quick-tap-ms = <200>;
+            hold-trigger-key-positions = <19 20 21 22 18 10 9 8 7 6 30 31 33 32 34 11 23 35>;
+        };
+
+        hrt_rh: hrt_rh {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_RH";
+            #binding-cells = <2>;
+            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <100>;
+            bindings = <&kp>, <&kp>;
+
+            quick-tap-ms = <200>;
+            hold-trigger-key-positions = <5 4 3 2 1 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29>;
         };
     };
 
@@ -43,7 +56,7 @@
 
             bindings = <
 &kp ESC    &kp Q               &kp W                   &kp E               &kp R                 &kp T             &kp Y         &kp U                  &kp I                &kp O            &kp P                        &kp BSPC
-&kp TAB    &hr_tap LEFT_ALT A  &hr_tap LEFT_CONTROL S  &hr_tap LEFT_GUI D  &hr_tap LEFT_SHIFT F  &kp G             &kp H         &hr_tap RIGHT_SHIFT J  &hr_tap RIGHT_GUI K  &hr_tap RCTRL L  &hr_tap RIGHT_ALT SEMICOLON  &kp BACKSLASH
+&kp TAB    &hrt_lh LEFT_ALT A  &hrt_lh LEFT_CONTROL S  &hrt_lh LEFT_GUI D  &hrt_lh LEFT_SHIFT F  &kp G             &kp H         &hrt_lh RIGHT_SHIFT J  &hrt_lh RIGHT_GUI K  &hrt_lh RCTRL L  &hrt_lh RIGHT_ALT SEMICOLON  &kp BACKSLASH
 &kp GRAVE  &kp Z               &kp X                   &kp C               &kp V                 &kp B             &kp N         &kp M                  &kp COMMA            &kp DOT          &kp FSLH                     &kp RSHFT
                                                        &none               &kp ESC               &mo_kp 1 SPACE    &mo_kp 2 RET  &kp BACKSPACE          &none
             >;
