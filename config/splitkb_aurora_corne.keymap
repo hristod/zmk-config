@@ -28,7 +28,6 @@
             bindings = <&kp>, <&kp>;
 
             quick-tap-ms = <0>;
-            hold-trigger-key-positions = <19 20 21 22 8 23>;
         };
     };
 
