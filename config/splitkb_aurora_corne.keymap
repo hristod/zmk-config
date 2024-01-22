@@ -61,8 +61,8 @@
             bindings = <
 &kp ESC    &kp Q               &kp W                   &kp E               &kp R                 &kp T             &kp Y         &kp U                  &kp I               &kp O            &kp P                        &kp BSPC
 &kp TAB    &hrt_lh LEFT_ALT A  &hrt_lh LEFT_CONTROL S  &hrt_lh LEFT_GUI D  &hrt_lh LEFT_SHIFT F  &kp G             &kp H         &hrt_rh RIGHT_SHIFT J  &hrt_rh LEFT_GUI K  &hrt_rh RCTRL L  &hrt_rh RIGHT_ALT SEMICOLON  &kp BACKSLASH
-&kp GRAVE  &kp Z               &kp X                   &kp C               &kp V                 &kp B             &kp N         &kp M                  &kp COMMA           &kp DOT          &kp FSLH                     &kp RSHFT
-                                                       &none               &kp ESC               &mo_kp 1 SPACE    &mo_kp 2 RET  &kp BACKSPACE          &none
+&kp GRAVE  &kp Z               &kp X                   &kp C               &kp V                 &kp B             &kp N         &kp M                  &kp COMMA           &kp DOT          &kp FSLH                     &none
+                                                       &none               &kp ESC               &mo_kp 1 SPACE    &mo_kp 2 RET  &kp RIGHT_SHIFT        &none
             >;
         };
 
