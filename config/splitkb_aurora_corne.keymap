@@ -14,7 +14,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "mo_tog";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             tapping-term-ms = <250>;
             bindings = <&mo>, <&kp>;
         };
