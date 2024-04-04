@@ -51,6 +51,40 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        hmr_ctrl_l {
+            bindings = <&kp RCTRL>;
+            key-positions = <16 15>;
+        };
+
+        hrm_gui_l {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <14 15>;
+        };
+
+        hrm_alt_l {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <14 13>;
+        };
+
+        hrm_ctrl_r {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 20 29>;
+        };
+
+        hrm_gui_r {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <20 21>;
+        };
+
+        hmr_alt_r {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <21 22>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
