@@ -71,7 +71,7 @@
 
         hrm_ctrl_r {
             bindings = <&kp RCTRL>;
-            key-positions = <19 20 29>;
+            key-positions = <19 20>;
         };
 
         hrm_gui_r {
