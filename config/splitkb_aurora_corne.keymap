@@ -83,6 +83,36 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <21 22>;
         };
+
+        hmr_ctrl_cmd_l {
+            bindings = <&kp LC(LEFT_GUI)>;
+            key-positions = <17 16 15>;
+        };
+
+        hmr_ctrl_cmd_r {
+            bindings = <&kp RC(RGUI)>;
+            key-positions = <18 19 20>;
+        };
+
+        hmr_ctrl_alt_l {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <17 15 16 14>;
+        };
+
+        hmr_ctrl_alt_r {
+            bindings = <&kp LC(RALT)>;
+            key-positions = <18 20 19 21>;
+        };
+
+        hmr_cmd_alt_l {
+            bindings = <&kp LA(LGUI)>;
+            key-positions = <16 15 14>;
+        };
+
+        hmr_cmd_alt_r {
+            bindings = <&kp LA(RGUI)>;
+            key-positions = <19 20 21>;
+        };
     };
 
     keymap {
