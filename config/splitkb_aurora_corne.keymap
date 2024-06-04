@@ -126,10 +126,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none      &kp Q  &kp W  &kp E           &kp R      &kp T        &kp Y            &kp U            &kp I          &kp O    &kp P          &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D           &kp F      &kp G        &kp H            &kp J            &kp K          &kp L    &kp SEMICOLON  &kp BACKSLASH
-&kp GRAVE  &kp Z  &kp X  &kp C           &kp V      &kp B        &kp N            &kp M            &kp COMMA      &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                         &kp LEFT_SHIFT  &lt 1 ESC  &kp SPACE    &mt LCTRL ENTER  &lt 2 BACKSPACE  &kp RIGHT_ALT
+&none      &kp Q  &kp W  &kp E           &kp R      &kp T        &kp Y      &kp U            &kp I            &kp O    &kp P          &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D           &kp F      &kp G        &kp H      &kp J            &kp K            &kp L    &kp SEMICOLON  &kp BACKSLASH
+&kp GRAVE  &kp Z  &kp X  &kp C           &kp V      &kp B        &kp N      &kp M            &kp COMMA        &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                         &kp LEFT_SHIFT  &lt 1 ESC  &kp SPACE    &kp ENTER  &lt 2 BACKSPACE  &kp RIGHT_SHIFT
             >;
         };
 
@@ -144,7 +144,7 @@
 &none  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none        &kp LG(LEFT)  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LG(RIGHT)  &none  &kp BSPC
 &none  &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none        &kp LEFT      &kp DOWN      &kp UP_ARROW   &kp RIGHT      &none  &trans
 &none  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0       &none         &none         &none          &none          &none  &none
-                            &none         &trans        &kp SPACE    &kp RET       &trans        &mo 3
+                            &trans        &trans        &kp SPACE    &kp RET       &mo 3         &trans
             >;
         };
 
@@ -159,7 +159,7 @@
 &trans  &kp CARET        &kp QUESTION  &kp SQT   &kp DOUBLE_QUOTES  &none          &kp LESS_THAN   &kp LEFT_BRACKET      &kp EQUAL  &kp RIGHT_BRACKET      &kp GREATER_THAN  &kp BSPC
 &trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH  &kp DOLLAR         &kp PERCENT    &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp COLON  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp BACKSLASH
 &none   &none            &kp TILDE     &kp PIPE  &kp AMPERSAND      &none          &kp PLUS        &kp ASTERISK          &kp MINUS  &kp UNDERSCORE         &none             &kp FSLH
-                                       &trans    &trans             &kp SPACE      &kp RET         &trans                &kp RALT
+                                       &trans    &mo 3              &trans         &trans          &trans                &trans
             >;
         };
 
