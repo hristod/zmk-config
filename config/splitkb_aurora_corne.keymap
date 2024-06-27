@@ -101,7 +101,7 @@
 
         hmr_ctrl_alt_r {
             bindings = <&kp LC(RALT)>;
-            key-positions = <18 19 21>;
+            key-positions = <19 20 22>;
         };
 
         hmr_cmd_alt_l {
